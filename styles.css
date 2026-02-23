@@ -269,6 +269,47 @@ section {
     color: var(--text-gray);
 }
 
+.step-content ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem; /* Indent for list items */
+}
+
+.step-content ul li {
+    position: relative;
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--text-gray);
+}
+
+.step-content ul li::before {
+    content: "•"; /* Bullet point */
+    color: var(--text-white); /* Bullet color */
+    font-size: 1.25rem;
+    position: absolute;
+    left: -1.5rem; /* Position the bullet */
+    top: -0.1rem;
+}
+
+.why-it-works {
+    margin-top: 4rem; /* Spacing from the steps above */
+}
+
+.why-it-works-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.75rem; /* Similar to step-title */
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-white);
+}
+
+.why-it-works p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--text-gray);
+}
+
 /* Risk Reversal Section */
 .risk-reversal {
     background-color: rgba(255, 255, 255, 0.02);
