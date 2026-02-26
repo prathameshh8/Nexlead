@@ -503,6 +503,10 @@ section {
     .highlight-box {
         padding: 1.5rem;
     }
+
+    .final-cta-text {
+        font-size: 1.5rem;
+    }
 }
 
 /* Spoiler Section */
@@ -566,4 +570,84 @@ section {
     .spoiler-content {
         padding: 1.5rem;
     }
+}
+
+/* Thank You Page Styles */
+.loom-section {
+    padding: 4rem 0 6rem;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.video-label {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--text-white);
+}
+
+.video-container iframe {
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.what-to-expect {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.expect-list {
+    list-style: none;
+    max-width: 800px;
+}
+
+.expect-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: var(--text-gray);
+}
+
+.expect-list .bullet {
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    color: var(--text-white);
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+}
+
+.respect-section {
+    padding: 6rem 0;
+}
+
+.reminder-section {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.reminder-body {
+    max-width: 700px;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--text-gray);
+}
+
+.final-cta-message {
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.final-cta-text {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    color: var(--text-white);
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.3;
 }
